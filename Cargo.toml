@@ -1,0 +1,10 @@
+[package]
+name = "svn_stash"
+version = "0.1.0"
+edition = "2021"
+authors = ["Thilina Lakshan <thilinalakshanmail@gmail.com>"]
+description = "A command line tool to stash and unstash changes in svn"
+
+[dependencies]
+zip = { version = "0.6.6" }
+clap = { version = "4.4.11", features = ["derive"] }
